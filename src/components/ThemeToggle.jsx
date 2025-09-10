@@ -9,10 +9,14 @@ function ThemeToggle() {
             setIsDarkMode(true);
         document.documentElement.classList.add('dark');
         }
-        else{
+        else if(savedTheme === 'light'){
 
             setIsDarkMode(false);
             document.documentElement.classList.remove('dark');
+        }
+        else{
+            setIsDarkMode(true);
+        document.documentElement.classList.add('dark');
         }
     }, []);
     const toggleTheme = () => {
