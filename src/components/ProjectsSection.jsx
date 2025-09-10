@@ -17,8 +17,8 @@ const projects = [
     description: "A modern and responsive portfolio built with React and Tailwind.",
     image: "/projects/project2.png",
     tags: ["React", "Tailwind", "Vite"],
-    demoUrl: "https://your-portfolio-demo.vercel.app/",
-    gitHubUrl: "https://github.com/raj-prasan/portfolio"
+    demoUrl: "https://raj-prasan.vercel.app/",
+    gitHubUrl: "https://github.com/raj-prasan/raj-prasan.github.io"
   }
 ]
 
